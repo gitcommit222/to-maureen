@@ -14,7 +14,7 @@ const LetterContainer = () => {
 			}`}
 		>
 			<Paper openPaper={openPaper} />
-			<button id="myButton" className="heart-button" onClick={handleClick}>
+			<button id="myButton" className={`heart-button ${openPaper ? "right-[-8%]" : "left-[43%]"}`} onClick={handleClick}>
 				💐
 			</button>
 		</div>

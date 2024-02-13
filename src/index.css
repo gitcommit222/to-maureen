@@ -57,12 +57,12 @@ body {
 .heart-button {
 	position: absolute;
 	top: -100px;
-	right: -8%;
 	font-size: 150px;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
 	z-index: 1000;
+	transition: all 1s ease-in;
 }
 
 
