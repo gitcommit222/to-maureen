@@ -6,7 +6,7 @@ const FrontPage = () => {
 	return (
 		<section className="flex flex-col items-center justify-center">
 			<h1 className="text-red-500 font-semibold text-[85px] text-center">
-				Hello love, can you be my Valentine?
+				Hello love, will you be my Valentine?
 			</h1>
 			<img src={please ? please : ""} />
 			<div className="flex gap-5 mt-5">
